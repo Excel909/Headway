@@ -228,6 +228,18 @@ footer{
     font-size: 20pt;
 }
 
+.mapouter{
+    position:relative;
+    text-align:right;
+    height:450px;
+    width:450px;
+}
+
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:400px;
+    width:675px;}
 
 
 
@@ -423,6 +435,7 @@ footer{
         top: 90px;
         position: relative;
         margin: auto;
+        overflow-y: hidden;
     }
     
     .lo-img{
@@ -445,6 +458,11 @@ footer{
         font-size: 12pt;
         padding: 14px;
         align-items: center;
+    }
+
+    .gmap_canvas{
+        width: 100%;
+        height: 400px;
     }
 
 
