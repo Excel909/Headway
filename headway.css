@@ -436,6 +436,7 @@ footer{
         position: relative;
         margin: auto;
         overflow-y: hidden;
+        overflow-x: hidden;
     }
     
     .lo-img{
