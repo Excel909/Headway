@@ -219,6 +219,14 @@ footer{
     transition-duration:1s;
 }
 
+.ic{
+    padding: 5px;  
+}
+
+.icc{
+    padding: 5px;
+    font-size: 20pt;
+}
 
 
 
@@ -297,7 +305,7 @@ footer{
         text-decoration: none;
         display: block;
         color:whitesmoke;
-        padding: 15px;
+        padding: 20px;
         text-transform: capitalize;
     }
 
